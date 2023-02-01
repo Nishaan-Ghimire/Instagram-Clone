@@ -1,0 +1,68 @@
+.lighthome{
+    background-color: #fff;
+
+    // For side bar component
+    .left{
+        .sidebar{
+            .sidenav{
+              
+                li:hover{
+                    background-color: rgb(250, 250, 250);
+                }
+            }
+        }
+    }
+
+    //  For Post component
+    .post{
+        .topLeft{
+            span.time{
+                color: grey;
+            }
+        }
+        .middle{
+            .middleLeft{
+                img:hover{
+                    filter: invert(0.5);
+                }
+            }
+            .middleRight{
+                img:hover{
+                    filter: invert(0.5);
+                }
+            }
+        }
+
+
+        .comment{
+            color: grey;
+        }
+        
+
+    }
+
+
+    .accountSide{
+        .myAccount{
+            .switchBtn{
+                span{
+                   color: rgb(41, 153, 245);
+                }
+                span:hover{
+                    color: rgb(7, 33, 116);
+                }
+            }
+            .profile{
+                .profileName{
+                    span.fullname{
+                        color: rgb(168, 164, 164);
+                    }
+                }
+            }
+
+            
+        }
+
+        
+    }
+}

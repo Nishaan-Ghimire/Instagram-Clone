@@ -1,0 +1,115 @@
+.loginForm {
+    // border: 1px solid black;
+ 
+    width: 375px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    .formpart {
+        background-color: white;
+        flex: 5;
+        border: 1px solid rgb(219, 219, 219);
+        
+        .logoContainer {
+            // border: 1px solid;
+
+            .logo {
+                height: 125px;
+            }
+
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+            input{
+                margin: 3px 5px;
+                padding: 8px 12px;
+                width: 60%;
+            }
+
+            button{
+                margin: 5px;
+                padding: 5px 12px;
+                width: 68%;
+                background-color: #0095f6;
+                color: #fff;
+                font-weight: bold;
+                font-size: 15px;
+                border: none;
+                border-radius: 5px;
+            }
+
+        }
+        ._or{
+            position: relative;
+            color: #908d8d;
+            font-size: 13px;
+            font-weight: bold;
+            margin: 14px 0px;
+
+
+            span::before,span:after{
+                content: '';
+                display: inline-block;
+                width: 120px;
+                height: 1px;
+                position: absolute;
+                border-bottom: 1px solid rgb(170, 164, 164);
+               
+            }
+            span::before{
+                top: 32%;
+                left: 10%;
+            }
+            span:after{
+                top: 32%;
+                right: 10%; 
+            }
+
+        }
+        .facebookLogin{
+            display: flex;
+            width: 180px;
+            margin: auto;
+            align-items: center;
+            margin: 24px auto;
+            color: #385185;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            img{
+                width: 20px;
+                margin-right: 5px;
+            }
+        }
+
+        .forgetPass{
+            font-size: 14px;
+            color: #002952;
+            cursor: pointer;
+        }
+
+      
+    }
+
+    .signupPart {
+        flex: 1;
+        border: 1px solid rgb(219, 219, 219);
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: #0095f6;
+            margin-left: 5px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+
+}

@@ -1,0 +1,113 @@
+.post{
+    // border: 1px solid blue;
+    width: 460px;
+    margin-top: 0px;
+    margin-left: 50px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+    margin-top: 25px;
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    .topLeft{
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        img{
+            height: 30px;
+            border-radius: 50%;
+            margin: 6px 5px;
+        }
+
+        span{
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+
+        span.username{
+            font-weight: 500;
+        }
+
+
+    }
+
+    .topRight{
+        display: flex;
+        align-items: center;
+        img{
+            height: 15px;
+            margin-right: 12px;
+        }
+    }
+
+}
+
+.postImage{
+    img{
+        height: 500px;
+        width: 455px;
+    }
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    .middleLeft{
+        display: flex;
+        img{
+            height: 25px;
+            margin: 5px 6px;
+            cursor: pointer;
+        }
+    }
+    
+    .middleRight{
+        img{
+            height: 30px;
+            cursor: pointer;
+
+        }
+    }
+}
+
+.likes{
+    text-align: left;
+   margin-top: 12px;
+   margin-left: 5px;
+   
+}
+
+
+.description{
+    display: flex;
+   align-items: center;
+   text-align: left;
+   span{
+    font-weight: 500;
+   }
+   
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    span.viewComment{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 16px;
+    }
+
+   input{
+    margin: 5px 4px;
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 12px;
+    border: none;
+   }
+   input::placeholder{
+    font-size: 15px;
+}
+}
+}
