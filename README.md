@@ -11,4 +11,5 @@
  > npm start
 
  Project Screenshot: 
- file:///home/nishan/Pictures/Screenshots/Screenshot%20from%202023-05-05%2013-25-54.png
+![Screenshot from 2023-05-05 13-25-54](https://user-images.githubusercontent.com/65059712/236405535-f45e78d0-4965-4ecb-9c7a-d7e51dd1f2fd.png)
+
