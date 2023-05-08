@@ -3,8 +3,11 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import './home.scss';
 import '../../dark.scss'
 import '../../light.scss'
-import Post from '../../components/post/Post';
-import Accounts from '../../components/accounts/Accounts';
+
+import Feed from '../../components/feed/Feed';
+import Profile from '../../components/profile/Profile'
+import Explore from '../../components/explore/Explore';
+import Reels from '../../components/reels/Reels';
 const Home = () => {
   return (
     <div className='homePage lighthome'>
@@ -12,20 +15,10 @@ const Home = () => {
       <Sidebar/>
         </div>
     <div className="right">
-      <div className="posts">
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-      </div>
-      <div className="accountSide">
-      <div className="accountpos">
-     <Accounts/>
-
-      </div>
-      </div>
-   
+    {/* <Feed/> */}
+   {/* <Profile/> */}
+   {/* <Explore/> */}
+   <Reels/>
     </div>
     </div>
   )

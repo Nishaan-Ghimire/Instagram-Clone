@@ -1,0 +1,17 @@
+.exploreSection{
+    .explorePostList{
+        margin-top: 25px;
+        margin-left: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .explorePost{
+            margin-bottom: 10px;
+        
+            img{
+                height: 300px;
+                width: 300px;
+            }
+        }
+    }
+}

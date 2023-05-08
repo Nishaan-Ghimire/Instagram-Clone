@@ -1,6 +1,6 @@
 import React from 'react';
 import './accounts.scss';
-const Accounts = () => {
+const Accounts = (props) => {
   return (
     <div className="myAccount">
     <div className="profile">
