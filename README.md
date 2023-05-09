@@ -11,8 +11,15 @@
  > npm start
 
  Project Screenshot: 
+<<<<<<< HEAD
 
 ![Screenshot from 2023-05-05 13-25-54](https://user-images.githubusercontent.com/65059712/236405535-f45e78d0-4965-4ecb-9c7a-d7e51dd1f2fd.png)
 
 
 ![Screenshot from 2023-05-05 13-26-19](https://user-images.githubusercontent.com/65059712/236405731-c0932e56-09cc-445e-bfa4-8aab5ae35844.png)
+=======
+![Screenshot from 2023-05-05 13-25-54](https://user-images.githubusercontent.com/65059712/236405535-f45e78d0-4965-4ecb-9c7a-d7e51dd1f2fd.png)
+
+
+![Screenshot from 2023-05-05 13-26-19](https://user-images.githubusercontent.com/65059712/236405731-c0932e56-09cc-445e-bfa4-8aab5ae35844.png)
+>>>>>>> 587a74d7214f8cc202e181a416a7a7811ec7eeca
